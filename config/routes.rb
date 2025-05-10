@@ -31,8 +31,6 @@ Rails.application.routes.draw do
 
   #------------------------------
   # Student routes
-
-  get("/students", { :controller => "students", :action => "index" })
   
   get("/students/:path_id", { :controller => "students", :action => "show" })
 
